@@ -1,0 +1,110 @@
+//var food = "eba"
+//
+//if(food === "rice"){
+//   console.log(`buy me ${food}`)
+//
+//}else if(food === "beans"){
+//   console.log(`buy me ${food}`)
+//
+//}else if(food === "pounded yam"){
+//   console.log(`buy me ${food}`)
+//
+//}else{
+//   console.log("return my money")
+//}
+/*
+>= 75 = excellent
+>=60 and <= 74 = "very Good"
+>=50 and <= 59 = "Good"
+>=40 and <= 49 = "pass"
+< 40 = "poor"
+
+*/
+//var score = 39;
+//
+//if(score >= 75){
+//   console.log("Excellent")
+//
+//}else if(score >= 60 && score <= 74){
+//   console.log("Very Good")
+//
+//}else if(score >= 50 && score <= 59){
+//   console.log("Good")
+//
+//}else if(score >=40 && score <= 49){
+//   console.log("Pass")
+//
+//}else{
+//   console.log("Failed")
+//}
+
+//var x = 8;
+//var y = 58;
+//
+//
+//
+//if(x === 8 || y === 5){
+//   console.log("correct")
+//}else{
+//   console.log("data did not match")
+//}
+//
+//var role = "user"
+//if("admin" != "admin"){
+//   console.log("only admin can perform such operation")
+//}else{
+//   console.log("no way")
+//}
+
+
+//var day = 2;
+//switch(day){
+//   case 1:
+//      console.log("today is monday")
+//      break;
+//   case 2: 
+//      console.log("today is tuesday")
+//      break;
+//   case 3: 
+//      console.log("today is wednesday")
+//      break;
+//   case 4: 
+//      console.log("today is thursday")
+//      break;
+//   case 5: 
+//      console.log("today is firday")
+//      break;
+//   case 6: 
+//      console.log("today is saturday")
+//      break;
+//   case 7: 
+//      console.log("today is sunday")
+//      break;
+//   default:
+//      console.log("i dont think that day exist")
+//   
+//}
+
+
+function calculation(){
+   return("hello world")
+}
+
+function studentInfo(name = "kayode", score = 20, title = "Mr"){
+   console.log(`Goodday ${title}, ${name}, your result is ${score}%`)
+}
+
+
+studentInfo()
+studentInfo("princess", 90, "Mrs")
+
+
+
+function AOC(r){
+   console.log(Math.PI * Math.pow(r,2))
+}
+
+AOC(3)
+AOC(45)
+
+

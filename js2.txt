@@ -1,0 +1,54 @@
+let arg = [3, 4, true, false, "hello"]
+
+arg[0] = 4
+
+
+
+//console.log(arg)
+//arg.forEach((a) => console.log(a))
+/*
+
+loop is a javascript method that can iterate
+over an items(repeating action). basically, for modifying
+type of loop
+
+1. for loop
+2. while loop
+3. do while loop
+ 
+the three type of loop follow same process which 
+are
+
+1. initialization
+2. condition
+3. increment/decrement operator
+
+
+*/
+
+var data = []
+
+//for(var a = 0; a < 20; a+=2){
+   // data.push(a)
+//}
+//
+//console.log(eval(data.join("+")))
+
+//var b = 0;
+//while( b < 20){
+//    data.push(b)
+//    b+=2
+//}
+//
+//console.log(eval(data.join("+")))
+
+//var x = 2
+//var x = 6
+//let a = 1
+//console.log(a)
+
+//var c = 0;
+//do{
+//    data.push(c);
+//    c+=2
+//}while(c < 20)

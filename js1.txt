@@ -1,0 +1,81 @@
+//var username = "expensive1"
+//
+//var num = 11.23
+//
+//var alive = true
+//
+//var person1 = {
+//    firstname: "yusuf",
+//    middlename: "kayode",
+//    country: "nigeria"
+//}
+//
+//var person2 = {
+//    firstname: "sola",
+//    middlename: "williams",
+//    country: "senegal"
+//}
+//
+//alert(typeof(alive))
+
+
+var person1 = {
+    firstname : "yusuf",
+    lastname: "kayode",
+    savings: 2000
+}
+
+
+person1.savings += 1000;
+
+//alert(person1.savings)
+
+let a = 1;
+
+
+
+
+var listarray = [
+    {firstname: "yusuf", country: "Nigeria"},
+    {firstname: "kayode", country: "senegal"},
+    {firstname: "william", country: "usa"},
+    {firstname: "prince", country: "Nigeria"},
+    {firstname: "shola", country: "australia"},
+    
+]
+
+var newarray = listarray.slice(0, 3)
+
+
+let array2 = [1,2,3]
+let array3 = ["a", true, false]
+//array2.push(56)
+//let joinedarray = array2.concat(array3)
+console.log(array2.join(""))
+
+
+
+/*
+array method in js
+pop() => it remove the last element from the array
+push() => it add new element to the end of the array
+shift() => remove the first element from the array
+unshift() => add new element to the beginning of the array
+length => tell us total number of item in array
+includes() => check if a particular element exist in an array
+find() => similar to includes
+slice() => takes two argument which is the beginning and the end.
+by cutting out those value
+concat() => add two arrays together
+join() => join two item together in array base on a sign and turn 
+them to string
+foreach() => this loop through the item and print them out 
+one after another
+
+
+
+*/
+
+
+
+
